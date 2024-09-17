@@ -23,13 +23,13 @@ Whether you're a developer working on a photography application, a data scientis
 Run the following command in your python venv:
 
 ```bash
-pip install git+https://github.com/avivilloz/image_editor.git@main#egg=image_editor
+pip install git+https://github.com/avivilloz/image_utils.git@main#egg=image_utils
 ```
 
 Or add the following line to your project's `requirement.txt` file:
 
 ```
-git+https://github.com/avivilloz/image_editor.git@main#egg=image_editor
+git+https://github.com/avivilloz/image_utils.git@main#egg=image_utils
 ```
 
 And run the following command:
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ## How to use:
 
 ```python
-from image_editor import *
+from image_utils import *
 
 # Use image editor functions
 ```
