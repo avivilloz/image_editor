@@ -1,4 +1,4 @@
-# PKG
+# Image Editor
 
 This is a comprehensive Python package designed to simplify and streamline image editing tasks. While currently focused on image cropping, it is built with extensibility in mind, allowing for future additions of various image manipulation features.
 
