@@ -16,7 +16,7 @@ def crop_image(src_path: str, dst_path: str, aspect_ratio: AspectRatio):
         width, height = image.size
         LOG.info(f"Original image dimensions: {width}x{height}")
 
-        ratio = aspect_ratio.value["ratio"]
+        ratio = aspect_ratio.value
         LOG.debug(f"Target aspect ratio: {ratio}")
 
         new_width, new_height = closest_resolution_by_height(height, ratio)
