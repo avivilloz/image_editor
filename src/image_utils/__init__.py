@@ -1,1 +1,1 @@
-from .image_editor import *
+from .image_utils import *
